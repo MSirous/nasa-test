@@ -1,3 +1,5 @@
+#### Note: If you have any problem dont forget you have to delete `package-lock.json` then install npm!**
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
