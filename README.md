@@ -1,4 +1,3 @@
-#### Note: If you have any problem dont forget you have to delete `package-lock.json` then install npm!**
 
 # Getting Started with Create React App
 
@@ -37,4 +36,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### `npm run eject`
 
+
+ // *****************************************************************************************************
 #### Note: If you have any problem dont forget you have to delete `package-lock.json` then install npm!**
+ // *****************************************************************************************************
