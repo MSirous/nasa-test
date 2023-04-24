@@ -1,19 +1,24 @@
 {
-  "name": "nasa-test",
+  "name": "nasa_api",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "localforage": "^1.10.0",
-    "match-sorter": "^6.3.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.10.0",
-    "react-scripts": "5.0.1",
-    "sort-by": "^1.2.0",
-    "web-vitals": "^2.1.4"
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.0.1",
+    "dotenv": "^8.2.0",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.6.0",
+    "react-dom": "^17.0.2",
+    "react-modal": "^3.13.1",
+    "react-player": "^2.9.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^5.0.1",
+    "scrollreveal": "^4.0.9",
+    "styled-components": "^5.3.0",
+    "web-vitals": "^1.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -26,6 +31,10 @@
       "react-app",
       "react-app/jest"
     ]
+  },
+  "browser": {
+    ".": "./dist/handlebars.min.js",
+    "./runtime": "runtime.min.js"
   },
   "browserslist": {
     "production": [

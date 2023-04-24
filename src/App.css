@@ -27,41 +27,6 @@
 .App-link {
   color: #61dafb;
 }
-.image:hover{
-  background-color:rgba(206, 231, 255, 0.5);
-  
-
-}
-
-.image {padding: 10px;
-  cursor: pointer;
-  border-radius: 5px;
-}
-
-.search {
-  padding: 10px;
-  border-radius: 5px;
-  width: 200px;
-  height: 15px;
-  line-height: 15px;
-  font-size: 20px;
-}
-
-.input-container {
-  display: flex; 
-  justify-content:center;
-  padding: 70px;
-  border: 1px solid #c6c6c6;
-
-}
-
-.image-title {
-  border: 1px solid #c6c6c6;
-  padding: 10x;
-  text-align: center;
-  text-decoration: none;
-  
-  }
 
 @keyframes App-logo-spin {
   from {
@@ -70,5 +35,5 @@
   to {
     transform: rotate(360deg);
   }
-  
 }
+
